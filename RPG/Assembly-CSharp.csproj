@@ -63,34 +63,42 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Mover.cs" />
+    <Compile Include="Assets\Scripts\Combat\CombatTarget.cs" />
+    <Compile Include="Assets\Scripts\Combat\Fighter.cs" />
+    <Compile Include="Assets\Scripts\Combat\Health.cs" />
+    <Compile Include="Assets\Scripts\Control\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Core\ActionScheduler.cs" />
+    <Compile Include="Assets\Scripts\Core\FollowCamera.cs" />
+    <Compile Include="Assets\Scripts\Core\IAction.cs" />
+    <Compile Include="Assets\Scripts\Movement\Mover.cs" />
+    <None Include="Assets\Asset Packs\Animations by Explosive\README - Usage Rights for these assets 1.txt" />
     <None Include="Assets\Asset Packs\Synty - Polygon Student Sample\README - Usage Rights for these assets.txt" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Q:/super fajna Ela/programowanko/RPG/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>Q:/super fajna Ela/programowanko/RPG-Unity-tutorial/RPG/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>Q:/super fajna Ela/programowanko/RPG/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>Q:/super fajna Ela/programowanko/RPG-Unity-tutorial/RPG/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>Q:/super fajna Ela/programowanko/RPG/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>Q:/super fajna Ela/programowanko/RPG-Unity-tutorial/RPG/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>Q:/super fajna Ela/programowanko/RPG/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>Q:/super fajna Ela/programowanko/RPG-Unity-tutorial/RPG/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>Q:/super fajna Ela/programowanko/RPG/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>Q:/super fajna Ela/programowanko/RPG-Unity-tutorial/RPG/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>Q:/super fajna Ela/programowanko/RPG/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>Q:/super fajna Ela/programowanko/RPG-Unity-tutorial/RPG/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>Q:/super fajna Ela/programowanko/RPG/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>Q:/super fajna Ela/programowanko/RPG-Unity-tutorial/RPG/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>Q:/super fajna Ela/programowanko/RPG/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>Q:/super fajna Ela/programowanko/RPG-Unity-tutorial/RPG/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>Q:/super fajna Ela/programowanko/RPG/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>Q:/super fajna Ela/programowanko/RPG-Unity-tutorial/RPG/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
