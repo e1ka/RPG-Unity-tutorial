@@ -26,6 +26,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b33377fc62f0016489dcf1c72fafb481, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5072328766178734924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5583361200238430470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42fc9c2b099b8714dae8b3b0d00fc37d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponRange: 2
+  weaponDamage: 2
+  timeBetweenAttacks: 1
 --- !u!114 &8126405548231022521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39,6 +54,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+--- !u!114 &8997038404547266892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5583361200238430470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c61df3912692240ab9e3216a060b47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chaseDistance: 4
 --- !u!1001 &3684571337004633502
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -103,6 +131,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1617841706597665968, guid: f30d0d85b40435245a8b7553669c4103,
+        type: 3}
+      propertyPath: m_Speed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2446831687529220945, guid: f30d0d85b40435245a8b7553669c4103,
         type: 3}
       propertyPath: m_Name

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace RPG.Combat
+namespace RPG.Core
 {
     class Health : MonoBehaviour 
     {
@@ -22,6 +22,7 @@ namespace RPG.Combat
         public void Die()
         {
             GetComponent<Animator>().SetTrigger("die");
+            GetComponent<ActionScheduler>().CancelCurrentAction();
         }
         public bool IsDead()
         {
